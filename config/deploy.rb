@@ -12,6 +12,8 @@ set :deploy_to, '/home/ubuntu/app'
 
 set :ssh_options, {forward_agent: true}
 
+set :rbenv_ruby, '2.1.2'
+
 # Default value for :scm is :git
 # set :scm, :git
 
